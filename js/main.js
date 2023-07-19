@@ -19,3 +19,9 @@ let prezzo_finale = prezzo_base.toFixed(2);
 
 // Output del prezzo finale
 console.log("Il prezzo finale del tuo viaggio è: " + prezzo_finale + " €");
+
+// Scrivi il risultato sulla pagina
+
+document.getElementById("distance").innerHTML = km;
+document.getElementById("age").innerHTML = eta;
+document.getElementById("price").innerHTML = prezzo_finale;

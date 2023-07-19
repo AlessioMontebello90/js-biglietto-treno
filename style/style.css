@@ -7,9 +7,10 @@ body {
 }
 .ticket {
   width: 300px;
-  padding: 20px;
-  border: 1px solid black;
+  padding: 30px;
+  border: 2px solid black;
   background-color: #f9f9f9;
+  text-align: center;
 }
 .ticket h2 {
   margin: 0;
